@@ -294,9 +294,20 @@
     }
   }
 </style>
+<div class="container">
+  <h1 class="test-dark" style="text-align: center;">Module Angular:</h1>
+  <h3 class="text-success" style="text-align: center;">{{seanceName}}</h3>
+  <p class="bg-info" style="text-align: center;">Prise en main d'Angular, première application</p>
+</div>
 
-<h1 class="test-dark">Module Angular:</h1>
-<div class="text-success">{{seanceName}}</div>
-<div class="bg-info">Prise en main d'Angular, première application</div>
-<app-etudiant></app-etudiant>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <h2>Liste Etudiants :</h2>
+      <app-etudiant></app-etudiant>
+      <app-etudiant></app-etudiant>
+      <app-etudiant></app-etudiant>
+    </div>
+  </div>
+</div>
 <router-outlet></router-outlet>
